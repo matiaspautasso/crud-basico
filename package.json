@@ -1,0 +1,45 @@
+{
+  "name": "crud-basico",
+  "version": "1.0.0",
+  "description": "CRUD básico educativo con Express.js y PostgreSQL - Proyecto para aprender desarrollo backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tu-usuario/crud-basico.git"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "crud",
+    "express",
+    "postgresql",
+    "nodejs",
+    "rest-api",
+    "backend",
+    "educativo",
+    "tutorial",
+    "javascript",
+    "sql"
+  ],
+  "author": "Tu Nombre <tu@email.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tu-usuario/crud-basico/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/crud-basico#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
